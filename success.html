@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Uploaded Successfully</title>
+    <style>
+        body {
+            
+            background: url(/static/aa.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            height: 100vh;
+            padding: 20px;
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            background-color: bisque; 
+
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        p {
+            text-align: center;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+            border-bottom: 1px solid transparent;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        a:hover {
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resume Uploaded Successfully</h1>
+    <p>Your resume has been uploaded. <a href="/download" style="text-decoration: underline;">Download here</a></p>
+    
+</body>
+</html>
